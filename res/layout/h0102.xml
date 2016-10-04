@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Black"
+
+    tools:context="Hill.com.H0102.H0102" >
+
+    <TextView
+        android:id="@+id/h0102_T001"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="78dp"
+        android:text="@string/h0102_T001"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/Lime"
+        android:textSize="50sp" />
+
+</RelativeLayout>

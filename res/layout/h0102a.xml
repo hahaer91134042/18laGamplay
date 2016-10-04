@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Purple"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/h0102a_T001"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/White"
+        android:text="@string/h0102a_T001"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/Red"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/h0102a_B001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/h0102a_T001"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/Yellow"
+        android:text="判定結果" />
+
+</RelativeLayout>
